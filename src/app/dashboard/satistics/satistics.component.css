@@ -1,0 +1,18 @@
+.list-disc1::before {
+    background-color: #357af2; /* Change the color to your desired color */
+    content: ''; /* Ensures the bullet point is displayed */
+    display: inline-block;
+    width: 10px; /* Adjust the width of the bullet point */
+    height: 10px; /* Adjust the height of the bullet point */
+    border-radius: 50%; /* Makes it circular */
+    margin-right: 0.5rem;
+}
+.list-disc2::before {
+    background-color: #0f9be2; /* Change the color to your desired color */
+    content: ''; /* Ensures the bullet point is displayed */
+    display: inline-block;
+    width: 10px; /* Adjust the width of the bullet point */
+    height: 10px; /* Adjust the height of the bullet point */
+    border-radius: 50%; /* Makes it circular */
+    margin-right: 0.5rem;
+}

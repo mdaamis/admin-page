@@ -1,0 +1,44 @@
+<div class="dashboard fixed bg-white max-sm:ml-[68px] md:ml-[160px] lg:ml-[200px] xl:ml-71 xl:top-[65px] lg:top-[50px] md:top-[50px] max-sm:top-[50px] pt-2 w-full z-10 shadow-sm  ">
+    <div class=" flex w-full h-[50px]">
+        <div class="p-2.5  flex items-center px-4 text-blue-400 ">
+            <i class="bi bi-columns-gap rounded-full h-8 w-8  flex items-center justify-center bg-blue-100 text-sm max-sm:hidden"></i>
+            <span class="text-[15px] ml-4  text-black font-medium " >Dashboard</span>
+
+        </div>
+        <div class=" xl:ml-[650px] lg:ml-[300px] md:ml-[84px] my-2 flex max-sm:hidden">
+            <button  class=" bg-gray-100 text-gray-400 w-[120px] rounded-lg text-center p-1">
+                 Month to Date</button>
+            <button  class=" bg-gray-100 text-gray-400 w-[120px] rounded-lg mx-2 text-center p-1"> Year to Date</button>
+            <button  class=" bg-blue-100 text-blue-400 w-[100px] rounded-md px-4 pt-1 flex"> Export
+
+                <i class="bi bi-caret-down-fill pl-2 text-blue-400 px-1"></i>
+            </button>
+            
+
+        </div>
+        <div class="mt-[14px] "><i class="max-sm:visible sm:hidden bi bi-three-dots-vertical absolute right-[72px]"></i></div>
+
+    </div>
+
+
+    </div>
+    
+        <div class=" xl:ml-64 xl:mt-[120px] xl:p-4  lg:ml-52 lg:mt-[110px] md:ml-44 md:mt-[114px] max-sm:mt-[120px] max-sm:ml-[80px] ">
+            <div  class="grid grid-cols-2 gap-2 auto-cols-max justify-items-start max-lg:block">
+                <div class="bg-white   mr-4 lg:mr-2  max-sm:mr-2 rounded-lg shadow-sm "><app-sales></app-sales></div>
+                <div class="bg-white  lg:mr-0 md:mr-4 max-sm:mr-2 rounded-lg shadow-sm md:mt-4 lg:mt-0 max-sm:mt-2"><app-purchase></app-purchase></div>
+            </div>
+            <div  class="grid grid-cols-3 max-xl:flex xl:gap-6 justify-items-start xl:h-[150px] lg:h-[255px] md:h-[330px] lg:mt-[10px] md:mt-[14px] lg:mr-0 md:mr-4 max-sm:block max-sm:mr-2 max-sm:mt-2" >
+                <div class="bg-white   xl:w-full lg:w-[210px] md:w-[150px] xl:h-[150px]   rounded-lg shadow-sm  max-sm:pr-10"><app-inventory></app-inventory></div>
+                <div class="bg-white  xl:w-full  xl:h-[150px] lg:ml-[20px] xl:mx-0 lg:mr-[20px] lg:w-[350px] md:w-[270px] md:mx-[10px] rounded-lg shadow-sm max-sm:mt-2"><app-product></app-product></div>
+                <div class="bg-white  xl:w-full  lg:w-[200px] xl:h-[150px]  rounded-lg shadow-sm max-sm:mt-2 max-sm:h-[280px] "><app-users></app-users></div>
+            </div>
+            <div class="  bg-white  justify-items-start rounded-lg shadow-sm  xl:mt-2  lg:mt-[10px] md:mt-4 xl:h-60 lg:h-44 lg:mr-0 md:mr-4 max-sm:mt-2 max-sm:mr-2">
+               <app-satistics></app-satistics>
+            </div>
+            
+          </div>
+    
+       
+
+    
